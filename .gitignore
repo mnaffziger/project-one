@@ -1,5 +1,5 @@
 # List of config files and directories to ignore
-config/
+config.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
