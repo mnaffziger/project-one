@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 config.py
 Resources 
-=======
 # List of config files and directories to ignore
 config.py
 
->>>>>>> e5e05d9b112dca9fa7853ffc75fb8415d8ac7bbb
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
