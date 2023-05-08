@@ -1,0 +1,10 @@
+Country,Country Name,Country Code,Number of Cities Meeting Criteria,Most Recent Crime Report,Oldest Crime Report Included,Number of Annual Crime Reports Available,"Average Crimes Committed /100,000 People"
+MG,Madagascar,MG,4,2018,2017,2,0.34
+BH,Bahrain,BH,36,2021,2016,6,3.08
+EG,Egypt,EG,16,2020,2016,4,13.57
+LY,Libya,LY,4,2017,2016,2,15.18
+BR,Brazil,BR,150,2020,2016,5,1808.45
+US,United States of America,US,288,2021,2016,6,1932.91
+AR,Argentina,AR,75,2020,2016,5,1987.46
+CL,Chile,CL,25,2020,2016,5,3350.2
+UY,Uruguay,UY,125,2020,2016,5,5306.52
