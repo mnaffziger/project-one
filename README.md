@@ -65,8 +65,3 @@ The goal of this project was to find the most suitable location for PyResorts, a
 - Using data from the United Nations introduced several possible pit falls:
    * Eventhough the amount of data is vast, there many way to double to triple count crime statistics if data is not carefully cleaned. The UN includes world, regional, and special political districts among the data from individual countries.
    * Within each broad category of crime data, each source file is slightly different.  So, the code must be tailored for each source file and cleaned properly to ensure proper merging.
-   * 
-
-
-
-
