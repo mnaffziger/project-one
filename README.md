@@ -51,7 +51,8 @@ The goal of this project was to find the most suitable location for PyResorts, a
 - hv plot of cities to see where they are located  
 - Give recommentation based on locations that firstly have the lowest crime rate and then the lowest number of hotels. 
 
-### Short Comings and Reconsiderations of the results of this code:
+---
+## Short Comings and Reconsiderations of the results of this code:
 - Geoapify the free version may not have access to all that is in the area (comparing a google search of hotels to our listed number of hotels was returning different  numbers).
 
 - The world crime index data that was used did not take into consideration political turmoil as a few of the cities it returned were located in Countries that ranked low on the crime index but are in fact not safe to travel to (this took some manual google searching).
