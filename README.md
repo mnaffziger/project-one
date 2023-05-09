@@ -20,6 +20,7 @@ The goal of this project was to find the most suitable location for PyResorts, a
 - Merge cities_airports_hotel_lim.csv (rename country column to ccs2 so it can merge with crime data) with crime_country_data_2023.csv 
 - Replace cca2 with Country Tag in merged dataframe 
 - Drop Countires with travel bans: Saudi Arabia and Iran 
+- Compare the Crime Index csv sourced from Kaggle with the United Nations to attempt to be more granular with international crime info
 
 ### Fourth Step: Make visuals for cities crime & hotels 
 - Make a bar graph for the number of countries in the list of cities
@@ -53,10 +54,19 @@ The goal of this project was to find the most suitable location for PyResorts, a
 
 ---
 ## Short Comings and Reconsiderations of the results of this code:
-- Geoapify the free version may not have access to all that is in the area (comparing a google search of hotels to our listed number of hotels was returning different  numbers).
+---
+*Geoapify*
+- Free version may not have access to all that is in the area (comparing a google search of hotels to our listed number of hotels was returning different  numbers).
 
+*International Crime Reports*
 - The world crime index data that was used did not take into consideration political turmoil as a few of the cities it returned were located in Countries that ranked low on the crime index but are in fact not safe to travel to (this took some manual google searching).
+- In addition, the world crim index data did not span many cities/countries
+-  Changing the selection process so one country (ie the United States is not dominating the results).  
+- Using data from the United Nations introduced several possible pit falls:
+   * Eventhough the amount of data is vast, there many way to double to triple count crime statistics if data is not carefully cleaned. The UN includes world, regional, and special political districts among the data from individual countries.
+   * Within each broad category of crime data, each source file is slightly different.  So, the code must be tailored for each source file and cleaned properly to ensure proper merging.
+   * 
 
-- Changing the selection process so one country (ie the United States is not dominating the results).  
+
 
 
